@@ -169,7 +169,7 @@ button a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh; 
+    height: 5vh; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
