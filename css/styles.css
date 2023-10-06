@@ -175,16 +175,43 @@ button a {
     color: hsl(228, 45%, 44%); 
 }
 
-/* media screen 375px */
-@media screen and (max-width: 375px){
+/* media screen 1400px */
+@media screen and (max-width: 1280px) {
     .main-container {
-        display: flex;
-        flex-direction: column;
+        height: 90vh;
+    }
+    .attribution {
+        height: 5vh;
+    }
+} 
+
+/* media screen 375px */
+@media screen and (max-width: 375px) {
+    .main-container {
+        width: 100%;
+        height: 100%;
+    }
+    .grid-1 {
+        height: 40%;
+        width: 300px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        margin-top: 30px;
     }
     .parrent-23 {
-        display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 40%;
+        width: 80%;
+    }
+    .grid-2, .grid-3 {
+        width: 300px;
+        height: 175px;
+        border-radius: 0;
+    }
+    .grid-3 {
+        margin-bottom: 20px;
     }
     
 }
